@@ -36,7 +36,7 @@ class MainHandler(webapp2.RequestHandler):
 
 
 	def build_list(self, start, end, number):
-		randos = random.sample([x for x in range(start, end)],  number)
+		randos = random.sample([x for x in range(start, end+1)],  number)
 		return randos
 
 	def write_to_csv(self, randos):
