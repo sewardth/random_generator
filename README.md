@@ -2,19 +2,17 @@
 Random Number Generator - Google App Engine
 -------------------------------------------------------------------------------
 Version 0.001
-Release date: MM/DD/YYYY
+Release date: 03/14/2014
 -------------------------------------------------------------------------------
 Project state:
 prototype
 -------------------------------------------------------------------------------
 Credits
-	Tom Seward (sewardth@gmail.com)
+Tom Seward (sewardth@gmail.com)
 -------------------------------------------------------------------------------
 Project description
 
-Provides a simple web interface to input parameters for random number generation.
-Creates and outputs downloadable CSV file list with random digits.  For running
-sample, visit http://1.rand-generator.appspot.com/
+Provides a simple web interface to input parameters for random number generation. Creates and outputs downloadable CSV file list with random digits.  For running sample, visit http://1.rand-generator.appspot.com/
 -------------------------------------------------------------------------------
 Dependencies:
 
