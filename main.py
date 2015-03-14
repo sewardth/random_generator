@@ -43,7 +43,7 @@ class MainHandler(webapp2.RequestHandler):
 		self.response.headers['Content-Type'] = 'application/csv'
 		self.response.headers['Content-Disposition'] = 'attachment; filename=random_numbers.csv'
 		c = csv.writer(self.response.out)
-		c.writerow(["Numbers"])
+		c.writerow(["Identifiers"])
 		for x in randos:
 			c.writerow([x])
 			
